@@ -1,0 +1,21 @@
+body{
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;    
+}
+
+section {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prim_1 {
+    color:  red;
+    background-color: blue;
+}
+
