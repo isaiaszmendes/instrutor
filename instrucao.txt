@@ -1,0 +1,39 @@
+git init : Server para criar um versionamento git (nunca criar no dasktop)
+git config user.name "meu nome": Serve para configurar o nome
+git config user.email "meu email" : Serve para configurar um email
+
+Criando o projeto
+
+cd nomePasta: Serve para entra na pasta 
+cd .. : Serve para voltar para o diretorio anterior
+mkdir nomePasta : Serve para criar pastas
+
+
+para acessar o visual studio
+
+code . : Serve abrir o visual studio na pasta que o mesmo esta
+
+Adicionando para o git
+
+git add . : adiona tudo que esta na pasta
+git add nome.extencao : Serve para adionar um arquivo especifico
+git commit -m " esse commit Serve para": Serve para commitar as informações
+git push url nomeDaBranch : Serve para empurra para o github (Padrao é a master)
+
+
+Estatus da branch
+
+git status : exibe o estatus da branch atual
+
+
+Branchs
+
+git branch: lista todas as Branchs
+git branch novaBranch : Serve para criar branch
+git checkout nomeBranch: Serve para alterar de branch
+
+Para unir a Branchs
+
+Ex: crie uma uma função na branch desenvolvimento e quero subir para a master
+git checkout master: entra na branch desejada
+git merge desenvolvimento
